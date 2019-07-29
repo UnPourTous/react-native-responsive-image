@@ -105,4 +105,4 @@ export default class Demo extends React.Component {
 - `height`: set image's height, number or string
 - `width`: set image's width, number or string
 - `style`: for native [View component](https://facebook.github.io/react-native/docs/view)
-- other: to [Image component](https://facebook.github.io/react-native/docs/image), like `source`
+- other: to [Image component](https://facebook.github.io/react-native/docs/image), e.g. `source`
