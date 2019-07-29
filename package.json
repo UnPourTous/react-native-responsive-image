@@ -1,0 +1,19 @@
+{
+  "name": "@unpourtous/react-native-responsive-image",
+  "version": "0.1.0",
+  "description": "responsive image component for react-native",
+  "main": "src/ResponsiveImage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnPourTous/react-native-responsive-image.git"
+  },
+  "author": "lhtin(webank)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UnPourTous/react-native-responsive-image/issues"
+  },
+  "homepage": "https://github.com/UnPourTous/react-native-responsive-image#readme"
+}
