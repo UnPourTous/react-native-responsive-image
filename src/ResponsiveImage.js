@@ -53,8 +53,6 @@ export default class ResponsiveImage extends React.Component {
       source
     } = this.props
 
-    console.log(this.props)
-
     if (
       prevProps &&
       width === prevProps.width &&
@@ -83,7 +81,6 @@ export default class ResponsiveImage extends React.Component {
 
     const parsedSource = Image.resolveAssetSource(source)
     Image.getSize(parsedSource.uri, (imageWidth, imageHeight) => {
-      console.log('size', imageWidth, imageHeight)
       this.setState({
         imageRatio: imageWidth / imageHeight
       })
@@ -137,8 +134,6 @@ export default class ResponsiveImage extends React.Component {
         height: height
       }
     }
-
-    console.log(boxStyle)
 
     return (
       <View
